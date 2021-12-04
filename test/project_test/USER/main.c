@@ -36,9 +36,9 @@
 	{
 	  GPIO_ResetBits(GPIOB,GPIO_Pin_5);
 	  GPIO_SetBits(GPIOE,GPIO_Pin_5);
-		Delay(3000000);
+		Delay(3500000);
 		GPIO_SetBits(GPIOB,GPIO_Pin_5);
 		GPIO_ResetBits(GPIOE,GPIO_Pin_5);
-		Delay(3000000);
+		Delay(3500000);
 	}
  }
